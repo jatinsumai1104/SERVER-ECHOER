@@ -6,7 +6,7 @@ A small internet chat interface on java for handling multiple client requests.
 ```sh
 1. Just open the file.sh file included in the repository and execute the file.
 2. It will open 1 server and 10 clients by default and run the instances of terminals.
-3. To change the number of clients, you can change the count of clients in the file.sh file included in the repository.
+3. To change the number of clients, you can change the count of clients in the file.sh file includes in the root.
 4. Output can be seen in the server terminal and the responses can be seen in the client terminals.
 5. A delay of 1000ms is imposed on response thread each time so as to show the priority queue working.
 ```
