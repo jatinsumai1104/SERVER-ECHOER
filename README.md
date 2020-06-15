@@ -16,10 +16,10 @@ A small internet chat interface on java for handling multiple client requests.
 ```sh
 1. Un-Comment the Code from line 26 till 30 in file ServerCode.java
 2. Execute the file ServerCode.java
-2. It will open 1 server and 10 clients by default and run the instances of terminals.
-3. To change the number of clients, you can change the count of clients in the file.sh file included in the repository.
-4. Output can be seen in the server terminal and the responses can be seen in the client terminals.
-5. A delay of 1000ms is imposed on response thread each time so as to show the priority queue working.
+3. It will open 1 server and 10 clients by default and run the instances of terminals.
+4. To change the number of clients, you can change the count of for loop in ServerCode.java file.
+5. Output can be seen in the server terminal and the responses can be seen in the client terminals.
+6. A delay of 1000ms is imposed on response thread each time so as to show the priority queue working.
 ```
 
 ![](images/Diagram.png)
