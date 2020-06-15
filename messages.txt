@@ -1,0 +1,8 @@
+ipconfig==>3
+echo hello world==>10
+dir==>4
+hii server==>1
+how are you==>1
+any message can be sent as a command randomly by client==>2
+to check if a message is sent as command can be checked in client console==>5
+ifconfig==>>6

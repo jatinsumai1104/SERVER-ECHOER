@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-06T13:45:54</date>
+  <millis>1591431354868</millis>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>Echoer</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>REQUEST  to check if a message is sent as command can be checked in client console ADDED TO PRIORITYQUEUE  BY CLIENT ID : 73</message>
+</record>
+<record>
+  <date>2020-06-06T13:45:54</date>
+  <millis>1591431354868</millis>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>Echoer</class>
+  <method>run</method>
+  <thread>13</thread>
+  <message>REQUEST  ipconfig ADDED TO PRIORITYQUEUE  BY CLIENT ID : 616</message>
+</record>
+<record>
+  <date>2020-06-06T13:45:54</date>
+  <millis>1591431354879</millis>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>Echoer</class>
+  <method>run</method>
+  <thread>10</thread>
+  <message>REQUEST  any message can be sent as a command randomly by client ADDED TO PRIORITYQUEUE  BY CLIENT ID : 92</message>
+</record>
+<record>
+  <date>2020-06-06T13:45:54</date>
+  <millis>1591431354879</millis>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>Echoer</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>REQUEST  ipconfig ADDED TO PRIORITYQUEUE  BY CLIENT ID : 287</message>
+</record>
+<record>
+  <date>2020-06-06T13:45:54</date>
+  <millis>1591431354884</millis>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>EchoReadServer</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>INCORRECT COMMAND REQUESTED BY CLIENT ID 73: NO ACK ON REQUEST MESSAGE : to check if a message is sent as command can be checked in client console</message>
+</record>
+<record>
+  <date>2020-06-06T13:45:54</date>
+  <millis>1591431354888</millis>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>Echoer</class>
+  <method>run</method>
+  <thread>14</thread>
+  <message>REQUEST  dir ADDED TO PRIORITYQUEUE  BY CLIENT ID : 255</message>
+</record>
+<record>
+  <date>2020-06-06T13:45:54</date>
+  <millis>1591431354948</millis>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>EchoReadServer</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>RESPONSE FOR CLIENT ID 616: ACK ON REQUEST : ipconfig</message>
+</record>
+<record>
+  <date>2020-06-06T13:45:54</date>
+  <millis>1591431354949</millis>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>EchoReadServer</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>INCORRECT COMMAND REQUESTED BY CLIENT ID 255: NO ACK ON REQUEST MESSAGE : dir</message>
+</record>
+<record>
+  <date>2020-06-06T13:45:55</date>
+  <millis>1591431355001</millis>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>EchoReadServer</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>RESPONSE FOR CLIENT ID 287: ACK ON REQUEST : ipconfig</message>
+</record>
+<record>
+  <date>2020-06-06T13:45:55</date>
+  <millis>1591431355001</millis>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>EchoReadServer</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>RESPONSE FOR CLIENT ID 92: ACK ON REQUEST : any message can be sent as a command randomly by client</message>
+</record>
+</log>
