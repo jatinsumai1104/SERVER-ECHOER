@@ -23,11 +23,9 @@ public class ServerCode {
 		int uniqueId;
 		try (ServerSocket serverSocket = new ServerSocket(8765)) {
 
-			/*
-			 * for(int i=0;i<5;i++){ Runtime.getRuntime().
-			 * exec("cmd /c start cmd.exe /K \"javac ClientCode.java && java ClientCode\" "
-			 * ); }
-			 */
+			for (int i = 0; i < 2; i++) {
+				Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"javac ClientCode.java && java ClientCode\" ");
+			}
 
 			while (true) {
 				Socket s = serverSocket.accept();
@@ -36,7 +34,7 @@ public class ServerCode {
 				hm.put(uniqueId, s);
 				PrintWriter output = new PrintWriter(s.getOutputStream(), true);
 				output.println(uniqueId);
-				new Echoer(s, logger).start();
+				new Echoer(s, logger, uniqueId).start();
 			}
 		} catch (IOException e) {
 			System.out.println(e);
