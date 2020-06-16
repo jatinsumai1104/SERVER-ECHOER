@@ -23,9 +23,11 @@ public class ServerCode {
 		int uniqueId;
 		try (ServerSocket serverSocket = new ServerSocket(8765)) {
 
-			for (int i = 0; i < 2; i++) {
-				Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"javac ClientCode.java && java ClientCode\" ");
-			}
+			/*
+			 * for(int i=0;i<10;i++){ Runtime.getRuntime().
+			 * exec("cmd /c start cmd.exe /K \"javac ClientCode.java && java ClientCode\" "
+			 * ); }
+			 */
 
 			while (true) {
 				Socket s = serverSocket.accept();
