@@ -1,6 +1,8 @@
 # CLI-chat-interface
 A small internet chat interface on java for handling multiple client requests.
 
+RSA Encryption algorithm used for maintaining security between clients. User can send commands to server which can be executed and server responds with ACK or NO-ACK in case of failure. Technologies: Networking, Multithreading, Socket Programming ,Java 
+
 #### Steps To Run The Project on Linux: 
 
 ```sh
